@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+}
+#main #hero #nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 35px 40px;
+  width: 100%;
+}
+#main #hero #nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+#main #hero #nav h4 {
+  font-weight: 500;
+}
+#main #hero #heading {
+  margin-top: 50px;
+}
+#main #hero #heading h1 {
+  font-size: 9vw;
+  text-transform: uppercase;
+  opacity: 0.7;
+  font-weight: 500;
+  margin-left: 40px;
+  line-height: 0.9;
+}
+#main #hero #heading #headingContent {
+  margin-left: 170px;
+  display: inline-block;
+}
+#main #hero #heading #headingContent h5 {
+  text-transform: uppercase;
+  text-align: right;
+  font-size: 1rem;
+  font-weight: 500;
+}
+#main #hero #subheading {
+  width: 100%;
+  text-align: right;
+  margin-top: 170px;
+  padding: 0px 40px;
+}
+#main #hero #subheading h5 {
+  line-height: 1.4;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+#main #hero #herofooter {
+  width: 100%;
+  position: absolute;
+  bottom: 2%;
+  padding: 0px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#main #hero #herofooter #firstcontent h5 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+#main #hero #herofooter #firstcontent h5:hover {
+  transform: rotate(0);
+}
+#main #hero #herofooter h5 {
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all ease 1s;
+}
+#main #hero #herofooter h5:hover i {
+  transform: rotate(0);
+}
+#main #hero #herofooter h5 i {
+  transform: rotate(-40deg);
+  font-size: 0.9rem;
+  margin-left: 0.5rem;
+}
+#main #hero #herofooter #lastcontent {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+  cursor: pointer;
+}
+#main #hero #herofooter #lastcontent .circle {
+  height: 25px;
+  width: 25px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  opacity: 0.7;
+}
+#main #hero #herofooter #lastcontent .circle i {
+  color: black;
+  font-size: 0.8rem;
+}/*# sourceMappingURL=style.css.map */
