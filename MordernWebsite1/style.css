@@ -6,7 +6,8 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
 }
@@ -116,4 +117,134 @@ html, body {
 #main #hero #herofooter #lastcontent .circle i {
   color: black;
   font-size: 0.8rem;
+}
+#main #second {
+  padding-top: 13rem;
+  width: 100%;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 40px;
+  padding-right: 10vw;
+}
+#main #second .elem {
+  padding: 4rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
+}
+#main #second .elem img {
+  height: 300px;
+  width: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  border-radius: 1rem;
+  z-index: 3;
+}
+#main #second .elem h2 {
+  text-transform: uppercase;
+  font-size: 6vw;
+  opacity: 0.6;
+  font-weight: 500;
+}
+#main #second .elem:nth-child(1) {
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+#main #about {
+  padding-top: 20rem;
+  padding-bottom: 13rem;
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main #about #cardsection {
+  display: flex;
+  justify-content: center;
+  gap: 5vw;
+}
+#main #about #cardsection #phele {
+  margin-left: 20vw;
+}
+#main #about #cardsection #phele #img {
+  height: 200px;
+  width: 200px;
+}
+#main #about #cardsection #phele #img img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#main #about #cardsection #dusra {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 33%;
+}
+#main #about #cardsection #dusra span {
+  opacity: 0.6;
+}
+#main #about #cardsection #dusra p {
+  font-size: 1.2rem;
+  line-height: 1.4;
+  font-weight: 1;
+  opacity: 0.9;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#main #about #cardsection #dusra button {
+  margin-top: 1rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  border: 1px solid white;
+  color: white;
+  background: transparent;
+  padding: 0.2rem 1rem;
+  font-size: 1.1rem;
+  border-radius: 1.5rem;
+  opacity: 0.8;
+}
+#main #ytlinks {
+  padding-left: 40px;
+  padding-bottom: 5rem;
+  width: 100%;
+  background-color: black;
+}
+#main #ytlinks p {
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+#main #ytlinks a {
+  margin-top: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+#main footer {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  padding: 2rem 40px;
+  justify-content: space-between;
+}
+#main footer #left {
+  display: flex;
+  gap: 3rem;
+}
+#main footer #left h5 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 1;
+}
+#main footer #right {
+  display: flex;
+  gap: 3rem;
+}
+#main footer #right h5 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 1;
 }/*# sourceMappingURL=style.css.map */
