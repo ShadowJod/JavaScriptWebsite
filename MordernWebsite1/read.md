@@ -13,3 +13,9 @@ https://cynthiaugwu.com/images/cover/plug.webp
 https://cynthiaugwu.com/images/cover/ixperience.webp
 
 https://cynthiaugwu.com/images/cynthia.webp
+
+smooth scrolling 
+    attach loco scroll css
+    attach locomotive scroll min js
+    some code from loco github for js
+    
