@@ -25,6 +25,7 @@ body {
 }
 
 #main {
+  overflow-x: hidden;
   width: 100%;
   background-color: black;
 }
