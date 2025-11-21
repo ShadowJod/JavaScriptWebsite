@@ -280,6 +280,7 @@ body {
   }
   #main #hero {
     padding: 0px;
+    height: 100vh;
   }
   #main #hero #nav {
     padding: 30px 20px;
