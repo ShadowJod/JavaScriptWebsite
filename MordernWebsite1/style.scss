@@ -347,6 +347,7 @@ body {
 
       #herofooter {
         padding: 0px 20px;
+        bottom: 3%;
         justify-content: space-between;
         #firstcontent {
           h5 {
@@ -434,9 +435,10 @@ body {
       #right{
         padding-bottom: 1rem;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         h5{
-          font-size: 0.9rem;
+          font-size: 0.7rem;
+          
         }
       }
     }

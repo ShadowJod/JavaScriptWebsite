@@ -315,6 +315,7 @@ body {
   }
   #main #hero #herofooter {
     padding: 0px 20px;
+    bottom: 3%;
     justify-content: space-between;
   }
   #main #hero #herofooter #firstcontent h5 {
@@ -391,9 +392,9 @@ body {
   #main footer #right {
     padding-bottom: 1rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   #main footer #right h5 {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
   }
 }/*# sourceMappingURL=style.css.map */
