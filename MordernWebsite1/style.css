@@ -269,7 +269,7 @@ body {
   font-weight: 1;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   #minicircle {
     display: none;
   }
@@ -390,7 +390,7 @@ body {
   #main footer #right {
     padding-bottom: 1rem;
     display: flex;
-    gap: 1.5rem;
+    justify-content: space-around;
   }
   #main footer #right h5 {
     font-size: 0.9rem;

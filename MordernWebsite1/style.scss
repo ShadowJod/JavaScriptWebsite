@@ -298,7 +298,7 @@ body {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   #minicircle {
     display: none;
   }
@@ -433,7 +433,7 @@ body {
       #right{
         padding-bottom: 1rem;
         display: flex;
-        gap: 1.5rem;
+        justify-content: space-around;
         h5{
           font-size: 0.9rem;
         }
